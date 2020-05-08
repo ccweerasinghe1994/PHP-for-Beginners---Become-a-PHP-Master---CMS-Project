@@ -9,10 +9,14 @@
 </head>
 <body>
 <?php
+//string
 $name = "edwin";
-$age = 100;
+//boolean
+$isBoolean = true;
+//floating point number
+$ageIn = 100.34;
 
-echo $name;
+echo $name.$ageIn;
 ?>
 </body>
 </html>
